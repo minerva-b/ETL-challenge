@@ -1,12 +1,12 @@
-create table so_QA (
-    Questioner_Id int,
-    Question_Asked_Date text,
-    Question_Score int,
-    Question_Title text,
-    Question_Text text,
-    Id int,
-    Answerer_ID int,
-    Question_Answered_Date text,
-    Answer_Score int,
-    Answer_Text text
+create table so_qa (
+    questioner_id int,
+    question_asked_date text,
+    question_score int,
+    question_title text,
+    question_text text,
+    id int,
+    answerer_id int,
+    question_answered_date text,
+    answer_score int,
+    answer_text text
 );
